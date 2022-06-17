@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <title>Mi Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Mi Portfolio</a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#home">Inicio</a>
+        </li>
+        <li class="menu-item">
+          <a href="#about">Sobre mí</a>
+        </li>
+        <li class="menu-item">
+          <a href="#projects">Experiencia</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="content">
+    <div class="half-section">
+     <div class="avatar-container">
+      <img src="./assets/avatar.png" alt="">
+      <h3>"Yo, disfrutando de mi café..."</h3>
+     </div>
+    </div>
+    <div class="half-section text-section">
+      <div class="introduction">
+        <h1 class="title">Hola!, <br> Soy Nombre y Apellido </h1>
+        <ul class="socials">
+          <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+        </ul>
+  
+        <p class="description">+15 años de experiencia trabajando en aplicaciones de alta escala. <br> Déjame contarte un poco de mí, sigue deslizando!</p>
+      </div>
+
+    </div>
+  </section>
+  
+  <section id="about" class="content">
+    <aside class="half-section text-section">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint porro reiciendis debitis et harum animi rem fugit eaque. Officia maxime id ipsum culpa temporibus dolore saepe quos quasi debitis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam rem quam, corporis itaque dolor deserunt libero doloremque quibusdam repellat quidem doloribus quia eos officia placeat, quasi, odit repellendus ipsa.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
+      </p>
+    </aside>
+    <aside class="half-section title-section">
+      <h2>Un poco sobre mí</h2>
+    </aside>
+  </section>
+
+  <section id="projects" class="content">
+    <aside class="half-section title-section">
+      <h2>Experiencia en el campo</h2>
+    </aside>
+    <aside class="half-section text-section">
+        <ul class="project-list">
+          <li>
+            <h3>Proyecto 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quisquam, quidem, quisquam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            </p>
+            <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
+          </li>
+          <li>
+            <h3>Proyecto 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quisquam, quidem, quisquam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            </p>
+            <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
+          </li>
+          <li>
+            <h3>Proyecto 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quisquam, quidem, quisquam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            </p>
+            <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
+          </li>
+        </ul>
+    </aside>
+  </section>
+  <section id="contact" class="content">
+    <aside class="half-section text-section">
+      <form action="">
+        <label for="name">Nombre</label>
+        <input class="input-field" type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input class="input-field type="email" name="email" id="email">
+        <label for="message">Mensaje</label>
+        <textarea class="input-field" name="message" id="message" cols="30" rows="10"></textarea>
+        <input class="btn-send-message" type="submit" value="Enviar">
+    </aside>
+    <aside class="half-section title-section">
+      <h2>Envíame un mensaje y charlemos!</h2>
+    </aside>
+  </section>
+
+  <footer>
+    <div class="footer-section-container">
+      <ul class="socials">
+        <li><a class="socials-icon" href=""> <i class="bi bi-github"></i></a></li>
+        <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
+        <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
+        <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
+        <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
+      <div class="footer-section-container">
+        <p>
+          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com">Nombre y Apellido</a>
+        </p>
+      </div>
+  </footer>
+</body>
+</html>
